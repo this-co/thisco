@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* generic styles ==========================
+============================================ */
+
+@media only screen and (max-width: 640px), (max-device-width: 640px){
+	body {
+		font-size: 13px;
+		line-height: 26px;
+		font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+		background-color: #fff;
+		padding: 0 3%;
+	}
+	#message03,#message04,#message05 {
+		margin: 30px auto;
+	}
+	.box {
+		margin-bottom: 12px;
+	}
+	#message04 {
+	}
+	.item.w_2 {
+    	width: 100% !important;
+	}
+	#message04 h2 {
+    	margin-top: 2em;
+	}
+	.amazonDetail {
+		top:-11%;
+		font-size: 10px;
+		padding: 5px;
+		left: -4%;
+		line-height: 2em;
+	}
+	#copyright {
+	    transform: rotate(90deg);
+	    margin-top: 128px;
+	    position: absolute;
+	    padding: 0.4% 3%;
+	    left: -100px;
+	    z-index: 1000;
+	}
+	div.item.w_2.contactBnr{
+		min-height: 5%;
+		width: 96% !important;
+	}
+	.amazonFilter p:first-child {
+		display: none;
+	}
+}
+

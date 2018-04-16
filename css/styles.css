@@ -1,0 +1,435 @@
+@charset "UTF-8";
+/* generic styles ==========================
+============================================ */
+body {
+	font-size: 13px;
+	line-height: 26px;
+	font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+	background-color: #fff;
+}
+h2{
+	font-weight: bold;
+	line-height: 44px;
+}
+img{
+	vertical-align: bottom;
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  min-height: 1px;
+}
+* html .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+.fleft{float: left;}
+.fright{float: right;}
+.clear{clear: both;}
+.center{text-align: center;}
+.left{text-align: left;}
+
+.mt0{margin-top: 0!important;}
+.mt5{margin-top: 5px!important;}
+.mt10{margin-top: 10px!important;}
+.mt15{margin-top: 15px!important;}
+.mt20{margin-top: 20px!important;}
+.mt25{margin-top: 25px!important;}
+.mt30{margin-top: 30px!important;}
+
+.mr0{margin-right: 0!important;}
+
+.mb5{margin-bottom: 5px!important;}
+.mb10{margin-bottom: 10px!important;}
+.mb15{margin-bottom: 15px!important;}
+.mb20{margin-bottom: 20px!important;}
+.mb25{margin-bottom: 25px!important;}
+.mb30{margin-bottom: 30px!important;}
+
+.ml0{margin-left: 0!important;}
+
+.pt0{padding-top: 0!important;}
+.pt10{padding-top: 10px!important;}
+.pt20{padding-top: 20px!important;}
+.pt30{padding-top: 30px!important;}
+
+.relative{position: relative;}
+.bgnone{background: none!important;}
+.bdnone{border: none!important;}
+.disn{display: none;}
+
+.gosick {
+	font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+.black{
+	background: black;
+	color: #fff;
+}
+
+.box {
+	display:inline-block;
+}
+
+span {
+	font-weight: bold;
+}
+
+span.yellow {
+	background-color: #ffff00;
+}
+
+
+/* contents  =================================
+============================================ */
+#wrapper {
+	max-width: 1768px;
+	margin: 0 auto;
+}
+
+.item {
+	position:inherit;
+	margin: 2%;
+}
+
+.item .filterArea {
+	width:100%;
+	height:100%;
+}
+
+.contactBnr{
+	height:auto!important;
+}
+@media screen and (max-width: 984px) {
+	#topbtn{
+		position:absolute!important;
+	}
+}
+@media screen and (max-width: 640px) {
+	.item {
+		float: left;
+		width: 29.333%!important;
+		overflow: hidden;
+	}
+	.item.w_2{
+		width: 100%!important;
+	}
+	#message01 h2 {
+		width: 92%;
+		margin: 0 auto;
+		margin-top: 3.2%;
+	}
+	#message01 p {
+		width: 92%;
+		margin: 0 auto;
+		margin-top: 1.2%;
+		line-height: 2em;
+	}
+}
+
+
+@media screen and (max-width: 738px) {
+	.item {
+		float: left;
+		width: 29.333%!important;
+		overflow: hidden;
+	}
+	.item.w_2{
+		width: 96%!important;
+	}
+	#message01 h2 {
+		width: 92%;
+		margin: 0 auto;
+		margin-top: 3.2%;
+	}
+	#message01 p {
+		width: 92%;
+		margin: 0 auto;
+		margin-top: 1.2%;
+		line-height: 2em;
+	}
+}
+@media screen and (min-width:739px) and (max-width: 984px) {
+	.item{
+		float: left;
+		width: 21%!important;
+		overflow: hidden;
+	}
+	.item.w_2{
+		width: 96%!important;
+	}
+	#message01 h2 {
+		width: 92%;
+		margin: 0 auto;
+		margin-top: 3.2%;
+	}
+
+	#message01 p {
+		width: 92%;
+		margin: 0 auto;
+		margin-top: 1.2%;
+		line-height: 2em;
+	}
+}
+@media screen and (min-width:985px) and (max-width: 1230px) {
+	.item {
+		float: left;
+		width: 16%!important;
+		overflow: hidden;
+	}
+	.item.w_2{
+		width: 36%!important;
+	}
+}
+@media screen and (min-width: 1231px) and (max-width: 1768px) {
+	.item {
+		float: left;
+		width: 12.666%!important;
+		overflow: hidden;
+	}
+	.item.w_2{
+		width: 29.333%!important;
+	}
+}
+
+@media screen and (min-width: 1769px) {
+	#container{
+		max-width: 1769px;
+		margin: 0 auto;
+	}
+	.item {
+		float: left;
+		width: 12.666%!important;
+		overflow: hidden;
+	}
+	.item.w_2{
+		width: 29.333%!important;
+	}
+}
+
+
+.item h2 {
+	font-size: 1.2em;
+	margin: 0;
+}
+.item img {
+	width: 100%;
+	max-height: auto;
+	position: inherit;
+}
+
+.amazonFilter .amazonDetail {
+	position: absolute;
+	width:66.4%;
+	margin-top:38%;
+	margin-left:16.8%;
+	text-align: center;
+	}
+
+/* overlay  =================================
+============================================ */
+#top_overlay {
+	z-index: 3;
+	position: absolute;
+	width:100%;
+}
+
+#copyright {
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	margin-top: 136px;
+	position: fixed;
+	padding: 0.4% 1%;
+	left: -80px;
+	z-index: 1000;
+}
+
+/* detail  =================================
+============================================ */
+#message01 h2 {
+	width: 92%;
+	margin: 3.2% 2% 0 2%;
+}
+
+#message01 p {
+	width: 92%;
+	margin: 1.2% 2% 0 2%;
+	line-height: 2em;
+}
+
+#message02 p {
+	width: 92%;
+	margin: 3.2% 2% 0 2%;
+	line-height: 2em;
+}
+
+.message_box > *,
+#message03 > *,
+#message06 > * {
+	padding: 8% 8%;
+	border: 3px #000 solid;
+}
+
+.message_box .box,
+#message03 .box,
+#message06 .box {
+	padding: 2% 4%;
+	margin-bottom: 12px;
+}
+#message04{
+	padding:0 0 3em 0;
+}
+#message04 > * {
+	padding: 0% 6% 0;
+}
+
+#message04 h2 {
+	margin-top: 3em;
+}
+
+#message04 span.yellow {
+	color: #000;
+}
+
+#message05 > * {
+	padding: 3.3%;
+	border: 3px #000 solid;
+}
+
+#message05 .box {
+	padding: 2% 2%;
+	margin: 2% 4% 1% 0;
+	float: left;
+}
+#message05 p {
+	margin: 1% 1% 0% 1%;
+}
+
+.inyou {
+	color: #00ff78;
+	text-decoration: underline;
+}
+
+.amazonFilter {
+	background-image: url('../img/redFilter.png');
+	background-size: 100%;
+	width:100%;
+	height:100%;
+	z-index:4;
+	position: absolute;
+	display: none;
+	}
+.amazon:hover img{
+	filter:  grayscale(80%) opacity(80%) blur(3px);
+	-webkit-filter:  grayscale(80%) opacity(80%) blur(3px);
+	-moz-filter:  grayscale(80%) opacity(80%) blur(3px);
+	-o-filter:  grayscale(80%) opacity(80%) blur(3px);
+	-ms-filter:  grayscale(80%) opacity(80%) blur(3px);
+	-webkit-transition: 2s -webkit-filter linear;
+	-moz-transition: 2s -moz-filter linear;
+	-o-transition: 2s -o-filter linear;
+	transition: 2s filter linear;
+	background-color: #FF0000;
+}
+
+.fittext13_w1 {
+	font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+::selection {
+	    background:#000; /* Safari */
+}
+::-moz-selection {
+	    background:#000; /* Firefox */
+}
+
+/* form  =================================
+============================================ */
+#form{
+	margin:0 auto;
+	text-align: center;
+	color:#fff;
+}
+#form .caption{
+	font-size:1.5em;
+	margin:0 auto 2%;
+}
+#form dl{
+	width:100%;
+	margin:0 auto 1.5em;
+	text-align: left;
+	font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+#form dl dt{
+	width:25%;
+	margin:0 2% 0 0;
+	text-align: right;
+}
+#form dl dd{
+	width:50%;
+	text-align: left;
+}
+#form dl dt,
+#form dl dd{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+}
+#form input{
+	width:100%;
+	color:#fff;
+}
+#form textarea{
+	width:100%;
+	color:#fff;
+}
+#form input,#form textarea{
+	border:none;
+	background: #000;
+	padding:0.8em;
+	border: #fff 2px solid;
+}
+#form button{
+	margin:1% auto 0;
+	border-style:none;
+	color: #000;
+	background: #ff0;
+	padding:1.5em 7em;
+	cursor:pointer;
+}
+#form h4{
+	font-size:1.5em;
+	margin-bottom: 1em;
+}
+#form .btn_back{
+	cursor: pointer;
+}
+#form .error_box{
+	margin-bottom: 2em;
+}
+#colorbox{
+	background: #000;
+}
+#colorbox html,#colorbox body{
+	background: #000;
+}
+#colorbox #cboxWrapper {
+	background: #000;
+}
